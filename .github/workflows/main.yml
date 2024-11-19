@@ -17,7 +17,7 @@ jobs:
             --header 'Content-Type: application/x-www-form-urlencoded' \
             --data-urlencode 'grant_type=client_credentials' \
             --data-urlencode 'client_id=dXIkAoN7-UCAdHanf1ReWA' \
-            --data-urlencode 'client_secret=JpwhDQeHyU6HAsfBf59PLQ_Berx-f4IUyF8uefh7bgAQ' \
+            --data-urlencode 'client_secret=JpwhDQeHyU6HAsfBf59PLQ_Berx-f4IUyF8uefh7bgAQ')
           
           echo "Raw Response: $response"
  
