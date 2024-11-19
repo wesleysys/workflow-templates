@@ -7,7 +7,7 @@ on:
  
 jobs:
   fetch_and_execute_tests:
-    runs-on: [ 'atc-ubuntu-latest' ]  # Custom runner
+    runs-on: self-hosted
  
     steps:
       - name: Request Tosca Execution API Access Token
