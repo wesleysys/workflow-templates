@@ -13,7 +13,7 @@ jobs:
       - name: Request Tosca Execution API Access Token
         id: get_token
         run: |
-          response=$(curl --location --request POST 'https://server.tosca.azure.cloud.bmw/tua/connect/token' \
+          response=$(curl --location --request POST 'https://10.9.3.116/tua/connect/token' \
             --header 'Content-Type: application/x-www-form-urlencoded' \
             --data-urlencode 'grant_type=client_credentials' \
             --data-urlencode 'client_id=dXIkAoN7-UCAdHanf1ReWA' \
