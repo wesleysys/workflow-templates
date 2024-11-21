@@ -7,7 +7,7 @@ on:
  
 jobs:
   fetch_and_execute_tests:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
  
     steps:
       - name: Request Tosca Execution API Access Token
